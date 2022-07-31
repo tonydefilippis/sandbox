@@ -34,7 +34,7 @@ axes.add_artist(drawing_moon)
 axes.add_artist(drawing_jupiter)
 #Set axis limits
 axes.set_xlim([- d_sun_earth / 4 , d_sun_earth * 6])
-axes.set_ylim([-1 * d_sun_earth / 4, d_sun_earth / 4])
+axes.set_ylim([- d_sun_earth / 4, d_sun_earth / 4])
 axes.set_aspect(1)
 # Plot
 plt.axis('scaled')
